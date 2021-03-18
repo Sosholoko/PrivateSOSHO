@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./fullpage.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap" rel="stylesheet">
+    <title>Fullpage</title>
+</head>
+
+<body> 
+    <div class="slider"></div>
+<div id="fullpage"> 
+        
+        <section id="home" class="section s1">
+            <nav class="navbar-1">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contacts</a>
+            </nav>
+            <img class="pp" src="profile pic.png" height="110px" width="115px"><br><br>
+            <h1 class="name">Sasha Kharoubi</h1>
+            <h3 class="job">Web Developper</h3><br><br>
+            <img class="logo" id="html" src="htmllogo.png" height="80px" width="80px">
+            <img class="logo" id="css" src="csslogo.png" height="80px" width="80px">
+            <img class="logo" id="js" src="jslogo.png" height="80px" width="80px">
+            <img class="logo" id="python" src="pyhtonlogo.png" height="80px" width="80px">
+
+        </section>
+        
+        <section id="pro" class="section s2">
+            <nav class="navbar-2">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contacts</a>
+            </nav>
+            
+            <div class = "pictures" >
+                <img class="pic" src="bootsform.png" height="230px" width="420px" alt="bootsform.com">
+                <img class="pic" src="bootsrapstart.png" height="230px" width="420px">
+                <img class="pic" src="helloworld.png" height="230px" width="420px">
+                <img class="pic" src="iron man pr.png" height="230px" width="420px">
+                <img class="pic" src="shop pr.png" height="230px" width="420px">
+                <img class="pic" src="shopify pr.png" height="230px" width="420px">
+            </div>
+            
+
+        </section>
+        
+        
+        <section id="social" class="section s3">
+            <nav class="navbar-3">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contacts</a>
+            </nav>
+            <h1>Social Networks</h1>
+            <img class="logo" id="fb" src="fblogo.png" height="80px" width="80px">
+            <img class="logo" id="tw" src="twlogo.png" height="80px" width="80px">
+            <img class="logo" id="lk" src="linkdnlogo.png" height="80px" width="80px">
+            <img class="logo" id="sl" src="slacklogo.png" height="80px" width="80px">
+        </section>
+        
+        <section class="section s4">
+            <nav class="navbar-4">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contacts</a>
+            </nav>
+            <h1>Contact</h1>
+            <form class="msg">
+                <label for="fname">First Name:</label><br><br>
+                <input type="text" placeholder="First Name"><br><br>
+                <label for="fname">Last Name:</label><br><br>
+                <input type="text" placeholder="Last Name"><br><br>
+                <label for="fname">Message</label><br><br>
+                <div class="me">
+                    <textarea id="message" placeholder="Type your message here !"></textarea><br><br>
+                    <button class="subbtn" type="submit">SEND</button>
+                </div>
+                
+            </form>
+        </section>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="./fullpage.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

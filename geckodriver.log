@@ -1,0 +1,29 @@
+1616059723041	geckodriver	INFO	Listening on 127.0.0.1:58600
+1616059723103	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rw/0j3hjrsd1xj_xv72n3p_60mc0000gn/T/rust_mozprofileZlKv9V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616059733358	Marionette	INFO	Listening on port 58605
+1616059857744	Marionette	INFO	Stopped listening on port 58605
+1616059862566	geckodriver	INFO	Listening on 127.0.0.1:59273
+1616059862591	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rw/0j3hjrsd1xj_xv72n3p_60mc0000gn/T/rust_mozprofile2JtTNo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616059865578	Marionette	INFO	Listening on port 59278
+1616059865650	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1616059881578	Marionette	INFO	Stopped listening on port 59278
+1616059891666	geckodriver	INFO	Listening on 127.0.0.1:59391
+1616059892673	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rw/0j3hjrsd1xj_xv72n3p_60mc0000gn/T/rust_mozprofilezHKkWA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616059895770	Marionette	INFO	Listening on port 59399
+1616059895885	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1616060437730	Marionette	INFO	Stopped listening on port 59399
