@@ -72,7 +72,7 @@ class TwitterBot:
 #         sasha = TwitterBot(entry_user.get(), entry_pass.get())
 #         print("started bot")
 
-sasha = TwitterBot("MikeFis00475522", "sasha0408")
+sasha = TwitterBot("Miketest", "test0000")
 
 root = tk.Tk()
 
