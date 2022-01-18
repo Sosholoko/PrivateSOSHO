@@ -1,0 +1,14 @@
+
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: gray;
+    padding: 20px 15px;
+}

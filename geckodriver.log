@@ -27,3 +27,21 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
 
 1616060437730	Marionette	INFO	Stopped listening on port 59399
+1620574541829	geckodriver	INFO	Listening on 127.0.0.1:52994
+1620574542834	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rw/0j3hjrsd1xj_xv72n3p_60mc0000gn/T/rust_mozprofiletwM3TU"
+1620574550306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620574553722	Marionette	INFO	Listening on port 53005
+1620574572114	geckodriver	INFO	Listening on 127.0.0.1:53047
+1620574573119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rw/0j3hjrsd1xj_xv72n3p_60mc0000gn/T/rust_mozprofilehdTGsh"
+1620574573670	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620574576444	Marionette	INFO	Listening on port 53058
+1620574576557	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620574622562	Marionette	INFO	Stopped listening on port 53058
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -2,7 +2,8 @@ import constant as keys
 from telegram.ext import *
 import response as R
 
-print("Bot started...")
+print("Bot's running...")
+print("To stop, hit CTRL + C")
 
 def start_command(update, context):
     update.message.reply_text('Dis moi שלום pour commencer !')

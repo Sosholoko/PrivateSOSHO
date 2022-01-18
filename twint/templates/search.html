@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .result{
+            border: 1px black solid;
+            height: 200px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="form">
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.subject.label }}
+            {{ form.subject() }}
+        </p>
+        <p>
+            {{ form.location.label }}
+            {{ form.location() }}
+        </p>
+        
+        {{ form.submit() }}<br>
+    </form>
+</div>
+<div class="result">
+    {{result}}
+</div>
+    
+
+</body>
+</html>

@@ -9,7 +9,7 @@ def sample_responses(input_text):
     if user_message in ("מי אתה?","מי זה?", "מי זה", "עם מי אני מדברת"):
         return " C'est moi sasha, ton mari 🖤❤️"
     
-    if user_message in ("מי אני אוהבת?","אוהבת אותך","אני אוהבת אותך"):
+    if user_message in ("גותם","מי אני אוהבת?","אוהבת אותך","אני אוהבת אותך"):
         return "Je t'aime aussi mon coeur ❤️❤️❤️"
 
     if user_message in ("מאמי?","שרי?","סשה?","סשה"):
@@ -56,6 +56,37 @@ def sample_responses(input_text):
     
     if user_message in ("לא"):
         return "Pourquoi non ?🥺"
+
+    if user_message in ("באמת?"):
+        return "Oui bien sur cherie !"
+
+    if user_message in ("נסיך שלי"):
+        return "Ma princesse a moi💓"
+    
+    if user_message in ("מאמי תבאו ב4"):
+        return "Mdrr je viens a l'heure que je veux moi 👊"
+
+    if user_message in ("אני לא מצליחה"):
+        return "Mais non tkt pas tu vas reussir t'en fait pas, je vais prier pour toi 🙏"
+
+    if user_message in ("איפה אנחנו שבת?"):
+        return "Ahaaaa surprise mdrrrr😎"
+
+    if user_message in ("איפה אתה?"):
+        return "Bah dans ton bureau, je suis en face de toi, je te vois😏😏"
+    
+    if user_message in ("למדת היום?"):
+        return "Betahhh je suis un tsadik moi 😇"
+
+    if user_message in ("אכלת?"):
+        return "Non🥺, je suis un miskin j'ai rien a manger..."
+
+    if user_message in ("תודה"):
+        return "Bekefffff 🥰"
+
+    if user_message in ("❤️"):
+        return "❤️"
+
 
 
 
